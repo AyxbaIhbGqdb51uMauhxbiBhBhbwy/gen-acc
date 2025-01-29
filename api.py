@@ -30,9 +30,6 @@ def random_account(platform):
     platform = platform.lower()
     valid_platforms = {
         "roblox": "Account/Roblox.txt",
-        "steam": "Account/Steam.txt",
-        "crunchyroll": "Account/Crunchyroll.txt",
-        "netflix": "Account/Netflix.txt"
     }
 
     if platform in valid_platforms:
